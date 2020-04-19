@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>UX Course Quizzes</title>
-</head>
-<body>
-  <main>
-    <h1>List of UX Course quizzes</h1>
-    <ul>
-      <li><a href="quiz-1.html">Lesson 1</a></li>
-      <li><a href="quiz-2.html">Lesson 2</a></li>
-      <li><a href="quiz-3.html">Lesson 3</a></li>
-      <li><a href="quiz-5.html">Lesson 5</a></li>
-      <li><a href="quiz-6.html">Lesson 6</a></li>
-      <li><a href="quiz-7.html">Lesson 7</a></li>
-      <li><a href="quiz-8-1.html">Lesson 8-1</a></li>
-      <li><a href="quiz-8-2.html">Lesson 8-2</a></li>
-      <li><a href="quiz-8-3.html">Lesson 8-3</a></li>
-      <li><a href="quiz-9.html">Lesson 9</a></li>
-    </ul>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UX Course Quizzes</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="page-title">List of UX Course quizzes</h1>
+      <ul class="lessons-list">
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-1.html">Lesson 1</a>
+          <span class="lessons-list__result" data-quiz="1"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-2.html">Lesson 2</a>
+          <span class="lessons-list__result" data-quiz="2"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-3.html">Lesson 3</a>
+          <span class="lessons-list__result" data-quiz="3"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-5.html">Lesson 5</a>
+          <span class="lessons-list__result" data-quiz="5"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-6.html">Lesson 6</a>
+          <span class="lessons-list__result" data-quiz="6"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-7.html">Lesson 7</a>
+          <span class="lessons-list__result" data-quiz="7"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-8-1.html">Lesson 8-1</a>
+          <span class="lessons-list__result" data-quiz="8-1"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-8-2.html">Lesson 8-2</a>
+          <span class="lessons-list__result" data-quiz="8-2"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-8-3.html">Lesson 8-3</a>
+          <span class="lessons-list__result" data-quiz="8-3"></span>
+        </li>
+        <li class="lessons-list__item">
+          <a class="lessons-list__lesson" href="quiz-9.html">Lesson 9</a>
+          <span class="lessons-list__result" data-quiz="9"></span>
+        </li>
+      </ul>
+    </main>
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/ResultStorage.js"></script>
+  </body>
 </html>

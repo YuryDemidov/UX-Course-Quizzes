@@ -1,0 +1,57 @@
+html {
+  font-family: "Loma", "Times New Roman", "Georgia", "Helvetica", serif;
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 1.5rem;
+
+  background-image: linear-gradient(to bottom, rgba(210, 50, 59, 0.4) 10%, rgba(170, 110, 20, 0.4), rgba(200, 200, 70, 0.4), rgba(60, 180, 70, 0.4), rgba(50, 170, 230, 0.4), rgba(30, 60, 200, 0.4), rgba(160, 50, 180, 0.4) 90%);
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.page-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.lessons-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lessons-list__lesson {
+  display: inline-block;
+  min-width: 5rem;
+  margin: 0.4rem 0;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #2fd967;
+
+  background-color: #ffffff;
+  border: 1px solid #cacaca;
+  border-radius: 0.5rem;
+
+  transition: all 0.33s ease-in-out;
+}
+
+.lessons-list__lesson:hover,
+.lessons-list__lesson:focus {
+  background-color: #2fd967;
+  color: #ffffff;
+}
